@@ -19,6 +19,13 @@ function About() {
         This app is ideal for users who want quick, clean, and beautiful weather updates
         right at their fingertips.
       </p>
+
+      {/* Portfolio Link */}
+      <p>
+        👨‍💻 Made by <a href="https://portfolio-rahul-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
+          Rahul Kumar
+        </a>. Visit my portfolio to see more projects!
+      </p>
     </section>
   );
 }
