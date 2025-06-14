@@ -1,0 +1,34 @@
+.about {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  animation: fadeIn 1s ease;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li {
+  margin: 10px 0;
+  font-size: 1rem;
+}

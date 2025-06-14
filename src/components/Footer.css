@@ -1,0 +1,57 @@
+.portfolio-footer {
+  background-color: #1e293b; /* dark blue-gray */
+  color: #cbd5e1; /* light gray */
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #60a5fa; /* soft blue */
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #94a3b8; /* medium gray */
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #60a5fa;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #93c5fd; /* lighter blue on hover */
+  text-decoration: underline;
+}
+
+.copyright p {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #64748b; /* subdued gray */
+}
+
+@media (max-width: 480px) {
+  .contact-info h3 {
+    font-size: 1.4rem;
+  }
+  .social-links a {
+    margin: 0 8px;
+    font-size: 0.9rem;
+  }
+}
